@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/actor/BaseActor.java" line="194" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cecbaa1-be59-4d45-b110-8d12e10be5ca" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerNio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="253" column="38" selection-start-line="253" selection-start-column="38" selection-end-line="253" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServerNetty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1045#1547#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/default.fnt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/sound-muted.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/sound4.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/space.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/spaceship.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/explosion.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/dialog-translucent.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actor/BaseActor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4557#4558#0" expanded="true" />
+                <element signature="e#4638#4639#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>put(</find>
+      <find>(byte)</find>
+      <find>rewind(</find>
+      <find>emptyList</find>
+      <find>rgba</find>
+      <find>get</find>
+      <find>200</find>
+      <find>line</find>
+      <find>lineHeight</find>
+      <find>CHAT_WI</find>
+      <find>Key</find>
+      <find>audio</find>
+      <find>PREF:</find>
+      <find>Keys</find>
+      <find>draw</find>
+      <find>dialog-t</find>
+      <find>fire.</find>
+      <find>channelW</find>
+      <find>1</find>
+      <find>: 1</find>
+      <find>overlaps</find>
+      <find>chat</find>
+      <find>.clear</find>
+      <find>AVG</find>
+      <find>new</find>
+      <find>READ:</find>
+      <find>&lt;=</find>
+      <find>render(</find>
+      <find>setOrig</find>
+      <find>InputProcessor</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/actor/Shield.java" />
+        <option value="$PROJECT_DIR$/src/actor/Wormhole.java" />
+        <option value="$PROJECT_DIR$/src/actor/Lasers.java" />
+        <option value="$PROJECT_DIR$/src/actor/Laser.java" />
+        <option value="$PROJECT_DIR$/src/actor/Rock.java" />
+        <option value="$PROJECT_DIR$/src/actor/Explosion.java" />
+        <option value="$PROJECT_DIR$/src/OtherPlayersEntity.java" />
+        <option value="$PROJECT_DIR$/src/PlayerEntity.java" />
+        <option value="$PROJECT_DIR$/src/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/entity/OtherPlayersEntity.java" />
+        <option value="$PROJECT_DIR$/src/actor/LaserEnemy.java" />
+        <option value="$PROJECT_DIR$/src/Server.java" />
+        <option value="$PROJECT_DIR$/src/NioObjectOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/entity/LaserEntity.java" />
+        <option value="$PROJECT_DIR$/src/ServerUDP.java" />
+        <option value="$PROJECT_DIR$/src/actor/DialogBox.java" />
+        <option value="$PROJECT_DIR$/assets/uiskin.json" />
+        <option value="$PROJECT_DIR$/src/entity/MessageType.java" />
+        <option value="$PROJECT_DIR$/src/entity/RawMessagesEntity.java" />
+        <option value="$PROJECT_DIR$/src/entity/ChatMessagesEntity.java" />
+        <option value="$PROJECT_DIR$/src/GlobalConfig.java" />
+        <option value="$PROJECT_DIR$/src/ClientThreadWrite.java" />
+        <option value="$PROJECT_DIR$/src/ServerIO.java" />
+        <option value="$PROJECT_DIR$/src/ClientNettyHandler.java" />
+        <option value="$PROJECT_DIR$/src/ServerNetty.java" />
+        <option value="$PROJECT_DIR$/src/actor/SpaceshipEnemy.java" />
+        <option value="$PROJECT_DIR$/src/entity/PlayerEntity.java" />
+        <option value="$PROJECT_DIR$/src/entity/MessageEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/global/GlobalConfig.java" />
+        <option value="$PROJECT_DIR$/src/KryoServer.java" />
+        <option value="$PROJECT_DIR$/src/ClientThreadIO.java" />
+        <option value="$PROJECT_DIR$/src/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/ServerNettyHandler.java" />
+        <option value="$PROJECT_DIR$/src/ClientThreadRead.java" />
+        <option value="$PROJECT_DIR$/src/actor/Spaceship.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/handlers/ServerNettyHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/ResponseTimeTest.java" />
+        <option value="$PROJECT_DIR$/src/ServerNio.java" />
+        <option value="$PROJECT_DIR$/src/handlers/ClientNettyHandler.java" />
+        <option value="$PROJECT_DIR$/src/game/SpaceGame.java" />
+        <option value="$PROJECT_DIR$/src/screen/BaseScreen.java" />
+        <option value="$PROJECT_DIR$/src/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/screen/LevelScreen.java" />
+        <option value="$PROJECT_DIR$/src/server/ServerUDP.java" />
+        <option value="$PROJECT_DIR$/src/threads/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/threads/ClientThreadIO.java" />
+        <option value="$PROJECT_DIR$/src/threads/ClientThreadRead.java" />
+        <option value="$PROJECT_DIR$/src/threads/ClientThreadWrite.java" />
+        <option value="$PROJECT_DIR$/src/actor/BaseActor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="405" />
+    <option name="y" value="1" />
+    <option name="width" value="1218" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_mgr_TCP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_mgr_TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../program_mgr_UDP" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="actor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GameRepo\game1-shooter - TCP\src" />
+      <recent name="C:\GameRepo\game1-shooter - TCP\+libs" />
+      <recent name="C:\GameRepo\game1-shooter\+libs" />
+      <recent name="C:\GameRepo\libgdx-starfish" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ResponseTimeTest">
+    <configuration name="Client 2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test.Launcher" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client 3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test.Launcher" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KryoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KryoServer" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ResponseTimeTest" />
+      <module name="libgdx-starfish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerIO" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerNetty" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerNio" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ServerNio" />
+      <module name="libgdx-starfish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client 2" />
+      <item itemvalue="Application.Client 3" />
+      <item itemvalue="Application.ServerNio" />
+      <item itemvalue="Application.ServerNetty" />
+      <item itemvalue="Application.KryoServer" />
+      <item itemvalue="Application.ResponseTimeTest" />
+      <item itemvalue="Application.ServerIO" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ResponseTimeTest" />
+        <item itemvalue="Application.ServerIO" />
+        <item itemvalue="Application.ServerNetty" />
+        <item itemvalue="Application.KryoServer" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cecbaa1-be59-4d45-b110-8d12e10be5ca" name="Default Changelist" comment="" />
+      <created>1584714137079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584714137079</updated>
+      <workItem from="1584714139582" duration="636000" />
+      <workItem from="1584960545232" duration="7831000" />
+      <workItem from="1585048020696" duration="10026000" />
+      <workItem from="1585142374226" duration="815000" />
+      <workItem from="1585244657020" duration="1238000" />
+      <workItem from="1585304512626" duration="1787000" />
+      <workItem from="1585317814426" duration="5173000" />
+      <workItem from="1585414965765" duration="1199000" />
+      <workItem from="1585568368021" duration="4172000" />
+      <workItem from="1585575139042" duration="1109000" />
+      <workItem from="1585652124503" duration="1247000" />
+      <workItem from="1585736850534" duration="651000" />
+      <workItem from="1585739359195" duration="20645000" />
+      <workItem from="1585827370741" duration="1286000" />
+      <workItem from="1585911500602" duration="2073000" />
+      <workItem from="1586000218203" duration="337000" />
+      <workItem from="1586173022116" duration="1871000" />
+      <workItem from="1586182396369" duration="16178000" />
+      <workItem from="1586252121602" duration="5724000" />
+      <workItem from="1586262418133" duration="3652000" />
+      <workItem from="1586271397582" duration="4402000" />
+      <workItem from="1586341295699" duration="1721000" />
+      <workItem from="1586513200268" duration="2840000" />
+      <workItem from="1586856324347" duration="599000" />
+      <workItem from="1586949622727" duration="5395000" />
+      <workItem from="1587042613976" duration="4094000" />
+      <workItem from="1587115203342" duration="8655000" />
+      <workItem from="1587201927250" duration="6382000" />
+      <workItem from="1587381649571" duration="18054000" />
+      <workItem from="1587463386428" duration="13281000" />
+      <workItem from="1587558853500" duration="1464000" />
+      <workItem from="1587566252634" duration="826000" />
+      <workItem from="1587632107416" duration="5260000" />
+      <workItem from="1587648485705" duration="7348000" />
+      <workItem from="1587723683414" duration="10214000" />
+      <workItem from="1587986371408" duration="14397000" />
+      <workItem from="1588071204313" duration="6885000" />
+      <workItem from="1588164867346" duration="382000" />
+      <workItem from="1588585567447" duration="4284000" />
+      <workItem from="1588675918253" duration="626000" />
+      <workItem from="1588680591779" duration="2623000" />
+      <workItem from="1588851551171" duration="1342000" />
+      <workItem from="1588931527022" duration="598000" />
+      <workItem from="1591101777776" duration="5910000" />
+      <workItem from="1591120935376" duration="1928000" />
+      <workItem from="1591174561907" duration="599000" />
+      <workItem from="1592306103105" duration="11242000" />
+      <workItem from="1592384504298" duration="12133000" />
+      <workItem from="1592552347869" duration="10145000" />
+      <workItem from="1592818541197" duration="17942000" />
+      <workItem from="1592907489932" duration="1624000" />
+      <workItem from="1592916542660" duration="9987000" />
+      <workItem from="1592991335414" duration="10902000" />
+      <workItem from="1593022259012" duration="481000" />
+      <workItem from="1593072102906" duration="15477000" />
+      <workItem from="1593163163354" duration="2765000" />
+      <workItem from="1593172675622" duration="12144000" />
+      <workItem from="1593354007613" duration="10779000" />
+      <workItem from="1593421637305" duration="10053000" />
+      <workItem from="1593514623873" duration="5985000" />
+      <workItem from="1593599949023" duration="27952000" />
+      <workItem from="1593681368441" duration="7555000" />
+      <workItem from="1593763664357" duration="8424000" />
+      <workItem from="1594023453679" duration="12242000" />
+      <workItem from="1594112544478" duration="6440000" />
+      <workItem from="1594372537566" duration="7989000" />
+      <workItem from="1594464889668" duration="599000" />
+      <workItem from="1594633499517" duration="597000" />
+      <workItem from="1594643930504" duration="598000" />
+      <workItem from="1594807281163" duration="1083000" />
+      <workItem from="1594809602174" duration="2679000" />
+      <workItem from="1594907890899" duration="1246000" />
+      <workItem from="1594996536359" duration="991000" />
+      <workItem from="1594997566932" duration="940000" />
+      <workItem from="1595235599168" duration="9834000" />
+      <workItem from="1595322930816" duration="14983000" />
+      <workItem from="1595344402267" duration="852000" />
+      <workItem from="1595422215964" duration="918000" />
+      <workItem from="1595423168262" duration="1152000" />
+      <workItem from="1595425751652" duration="167000" />
+      <workItem from="1595425949453" duration="5232000" />
+      <workItem from="1595431351647" duration="7357000" />
+      <workItem from="1595449744864" duration="1919000" />
+      <workItem from="1595487343548" duration="14670000" />
+      <workItem from="1595505497964" duration="7481000" />
+      <workItem from="1595513539730" duration="3695000" />
+      <workItem from="1595577667102" duration="6988000" />
+      <workItem from="1595588403887" duration="8590000" />
+      <workItem from="1595768154483" duration="4935000" />
+      <workItem from="1595847671755" duration="3729000" />
+      <workItem from="1595859472324" duration="1340000" />
+      <workItem from="1595860896691" duration="2067000" />
+      <workItem from="1595863014986" duration="3473000" />
+      <workItem from="1595866521562" duration="3870000" />
+      <workItem from="1595924908630" duration="1376000" />
+      <workItem from="1595938696632" duration="2200000" />
+      <workItem from="1595941560859" duration="2588000" />
+      <workItem from="1595944186766" duration="5013000" />
+      <workItem from="1596012375759" duration="598000" />
+      <workItem from="1596533537644" duration="611000" />
+      <workItem from="1597066988009" duration="834000" />
+      <workItem from="1597139164147" duration="599000" />
+      <workItem from="1597235979258" duration="599000" />
+      <workItem from="1597314885018" duration="6140000" />
+      <workItem from="1597341371906" duration="1902000" />
+      <workItem from="1597418717170" duration="587000" />
+      <workItem from="1597505381383" duration="596000" />
+      <workItem from="1597600623338" duration="597000" />
+      <workItem from="1597657238191" duration="1201000" />
+      <workItem from="1597746804123" duration="8046000" />
+      <workItem from="1597857984803" duration="1917000" />
+      <workItem from="1598030735111" duration="4530000" />
+      <workItem from="1598088853845" duration="2774000" />
+      <workItem from="1598109165756" duration="589000" />
+      <workItem from="1598455408145" duration="220000" />
+      <workItem from="1598888889892" duration="1004000" />
+      <workItem from="1598955423599" duration="3895000" />
+      <workItem from="1599039939828" duration="1195000" />
+      <workItem from="1599153078241" duration="617000" />
+      <workItem from="1599158982983" duration="499000" />
+      <workItem from="1599217991022" duration="1694000" />
+      <workItem from="1599386074552" duration="596000" />
+      <workItem from="1599408264409" duration="1354000" />
+      <workItem from="1599472865457" duration="597000" />
+      <workItem from="1599559860901" duration="4470000" />
+      <workItem from="1599645565039" duration="898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="592476000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.1652452" />
+      <window_info id="Structure" order="1" sideWeight="0.5019455" side_tool="true" weight="0.11208054" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.2888889" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39576718" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.18730159" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3904762" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.21693122" />
+      <window_info anchor="bottom" id="GraphQL" order="17" weight="0.32910052" />
+      <window_info anchor="right" id="BPMNPalette" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992636" visible="true" weight="0.10341151" />
+      <window_info id="Structure" order="1" sideWeight="0.50073636" side_tool="true" weight="0.11940298" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.1936508" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.32486773" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.18730159" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3904762" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32698414" />
+      <window_info anchor="bottom" id="GraphQL" order="17" weight="0.32910052" />
+      <window_info anchor="right" id="BPMNPalette" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/screen/MenuScreen.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/+libs/kryonet-2.22.0-RC1.jar!/com/esotericsoftware/kryonet/TcpConnection.class</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KryoServer.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/ClientThreadRead.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/ClientThreadRead.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/ClientThreadIO.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/game/SpaceGame.java</url>
+          <line>1135</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/handlers/ServerNettyHandler.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/handlers/ServerNettyHandler.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/handlers/ClientNettyHandler.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/Buffer.java</url>
+          <line>520</line>
+          <properties />
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/actor/BaseActor.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/actor/BaseActor.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/actor/BaseActor.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/actor/BaseActor.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ServerNio.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/game/SpaceGame.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/game/SpaceGame.java</url>
+          <line>853</line>
+          <properties />
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/game/SpaceGame.java</url>
+          <line>940</line>
+          <properties />
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/game/SpaceGame.java</url>
+          <line>968</line>
+          <properties />
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/game/SpaceGame.java</url>
+          <line>965</line>
+          <properties />
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/ClientThread.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/ClientThread.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>player</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>entity.OtherPlayersEntity</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>player</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buffer.getFloat()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buffer.position(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buffer.get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chatMessages</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buffer.flip()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buffer.getFloat()\</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>buffer.hasRemaining()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/message-win.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/message-lose.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/uiskin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Laser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/+libs/gdx-sources.jar!/com/badlogic/gdx/scenes/scene2d/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8296">
+          <caret line="574" column="31" selection-start-line="574" selection-start-column="31" selection-end-line="574" selection-end-column="31" />
+          <folding>
+            <element signature="e#20327#20328#0" expanded="true" />
+            <element signature="e#20349#20350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Shield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/+libs/gdx-sources.jar!/com/badlogic/gdx/scenes/scene2d/ui/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding>
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/+libs/gdx-sources.jar!/com/badlogic/gdx/scenes/scene2d/ui/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Spaceship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4601#4602#0" expanded="true" />
+            <element signature="e#4633#4634#0" expanded="true" />
+            <element signature="e#4684#4685#0" expanded="true" />
+            <element signature="e#4726#4727#0" expanded="true" />
+            <element signature="e#4767#4768#0" expanded="true" />
+            <element signature="e#4804#4805#0" expanded="true" />
+            <element signature="e#4865#4866#0" expanded="true" />
+            <element signature="e#4917#4918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/DialogBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Explosion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Rock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/Wormhole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/ChatMessagesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/RawMessagesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/PlayerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/LaserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/MessageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/OtherPlayersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/BaseGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/SpaceGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectUDP#0;class#SpaceGame#0" />
+            <element signature="method#connectKryo#0;class#SpaceGame#0" />
+            <element signature="method#connectNio#0;class#SpaceGame#0" />
+            <element signature="method#connectNio2#0;class#SpaceGame#0" />
+            <element signature="method#connect#0;class#SpaceGame#0" />
+            <element signature="method#connect2#0;class#SpaceGame#0" />
+            <element signature="method#connectIO#0;class#SpaceGame#0" />
+            <element signature="method#connectIO2#0;class#SpaceGame#0" />
+            <element signature="method#connectNetty#0;class#SpaceGame#0" />
+            <element signature="method#measureTime#0;class#SpaceGame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global/GlobalConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/ClientNettyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="method#channelRead0#0;class#ClientNettyHandler#0" />
+            <element signature="method#channelRead#0;class#ClientNettyHandler#0" />
+            <element signature="method#exceptionCaught#0;class#ClientNettyHandler#0" />
+            <element signature="method#measureTime#0;class#ClientNettyHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/ServerNettyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#channelActive#0;class#ServerNettyHandler#0" />
+            <element signature="method#channelRead#0;class#ServerNettyHandler#0" />
+            <element signature="method#channelInactive#0;class#ServerNettyHandler#0" />
+            <element signature="method#exceptionCaught#0;class#ServerNettyHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/BaseScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/LevelScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ServerUDP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/JavaProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ResponseTimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4208#4209#0" expanded="true" />
+            <element signature="e#4237#4238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/ClientThreadIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/ClientThreadRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/ClientThreadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KryoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerNio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="253" column="38" selection-start-line="253" selection-start-column="38" selection-end-line="253" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerNetty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1045#1547#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ufo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/warp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/rock.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/default.fnt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sound-muted.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sound4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/space.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spaceship.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/explosion.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/dialog-translucent.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actor/BaseActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4557#4558#0" expanded="true" />
+            <element signature="e#4638#4639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>libgdx-starfish</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
