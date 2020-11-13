@@ -22,6 +22,9 @@ public class WizardsGame extends BaseGame {
         basicSpells.add(SpellEnum.ICE_SPIKE);
         basicSpells.add(SpellEnum.FROST_NOVA);
         basicSpells.add(SpellEnum.BLINK);
+       // basicSpells.add(SpellEnum.METEOR_RAIN);
+      //  basicSpells.add(SpellEnum.BLIZZARD);
+        basicSpells.add(SpellEnum.MIRROR_IMAGES);
        /* basicSpells.add("icecrown");
         basicSpells.add("frostnova");
         basicSpells.add("fireball");

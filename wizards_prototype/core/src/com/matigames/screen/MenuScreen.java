@@ -26,11 +26,12 @@ public class MenuScreen extends BaseScreen {
     @Override
     public void initialize() {
         super.initialize();
+        backButton.setVisible(false);
 
         Table menuTable = new Table();
         menuTable.debugTable();
         menuTable.setTouchable(Touchable.enabled);
-        menuTable.setPosition(GAME_WIDTH / 2, GAME_HEIGHT / 2);
+        menuTable.setPosition(Gdx.graphics.getWidth() / 2, Gdx.graphics.getHeight() / 2);
 
         TextButton trainingScreenSwitch = new TextButton("Training mode", skin);
         trainingScreenSwitch.addListener(new ClickListener() {

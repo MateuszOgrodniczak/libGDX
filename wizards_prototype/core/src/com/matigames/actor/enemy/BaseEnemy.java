@@ -1,5 +1,6 @@
 package com.matigames.actor.enemy;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -21,6 +22,12 @@ public abstract class BaseEnemy extends BaseActor {
     protected float mana;
 
     protected boolean immortal;
+    protected boolean slowed;
+    protected boolean frozen;
+    protected boolean stunned;
+    protected boolean shocked;
+
+    protected float baseSpeed;
 
     public BaseEnemy(float x, float y, Stage s) {
         super(x, y, s);
@@ -96,5 +103,51 @@ public abstract class BaseEnemy extends BaseActor {
 
     public Animation<TextureRegion> getIdleAnimation() {
         return idleAnimation;
+    }
+
+    public boolean isSlowed() {
+        return slowed;
+    }
+
+    public void setSlowed(boolean slowed) {
+        this.slowed = slowed;
+    }
+
+    public boolean isFrozen() {
+        return frozen;
+    }
+
+    public void setFrozen(boolean frozen) {
+        this.frozen = frozen;
+    }
+
+    public boolean isStunned() {
+        return stunned;
+    }
+
+    public void setStunned(boolean stunned) {
+        this.stunned = stunned;
+    }
+
+    public boolean isShocked() {
+        return shocked;
+    }
+
+    public void setShocked(boolean shocked) {
+        this.shocked = shocked;
+    }
+
+    @Override
+    public void act(float dt) {
+        super.act(dt);
+
+        if(slowed) {
+            setColor(Color.SKY);
+            setSpeed(getSpeed()*0.5f);
+        }
+    }
+
+    public float getBaseSpeed() {
+        return baseSpeed;
     }
 }

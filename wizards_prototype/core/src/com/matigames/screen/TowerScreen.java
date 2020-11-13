@@ -14,9 +14,6 @@ import com.matigames.actor.enemy.MageType;
 import com.matigames.actor.spell.Spell;
 import com.matigames.actor.spell.SpellSchool;
 
-import static com.matigames.config.GlobalConfig.GAME_HEIGHT;
-import static com.matigames.config.GlobalConfig.GAME_WIDTH;
-
 public class TowerScreen extends BattleScreen {
     //test
     private MageType type;
@@ -31,8 +28,7 @@ public class TowerScreen extends BattleScreen {
     @Override
     public void initialize() {
         super.initialize();
-
-        mage = new Mage(GAME_WIDTH / 2 - 100, GAME_HEIGHT - 250, mainStage);
+        mage = new Mage(Gdx.graphics.getWidth() / 2 - 100, Gdx.graphics.getHeight() - 250, mainStage);
     }
 
     @Override
@@ -58,7 +54,8 @@ public class TowerScreen extends BattleScreen {
 
     @Override
     public void update(float delta) {
-        Array<Actor> actors = mainStage.getActors();
+        super.update(delta);
+        /*Array<Actor> actors = mainStage.getActors();
 
         for (int i = 0; i < actors.size; i++) {
             Actor actor = actors.get(i);
@@ -102,9 +99,9 @@ public class TowerScreen extends BattleScreen {
 
                                 spell.remove();
 
-                                Label damageText = new Label("" + spell.getBaseDmg(), skin);
+                                Label damageText = new Label("" + spell.getMinDmg(), skin);
                                 damageText.setPosition(baseEnemy.getX() + 50, baseEnemy.getY());
-                                baseEnemy.setHp(spell.getBaseDmg() > baseEnemy.getHp() ? 0 : baseEnemy.getHp() - spell.getBaseDmg());
+                                baseEnemy.setHp(spell.getMinDmg() > baseEnemy.getHp() ? 0 : baseEnemy.getHp() - spell.getMinDmg());
 
                                 damageText.addAction(Actions.delay(1));
                                 damageText.addAction(Actions.after(Actions.fadeOut(0.5f)));
@@ -122,6 +119,6 @@ public class TowerScreen extends BattleScreen {
                     }
                 }
             }
-        }
+        }*/
     }
 }

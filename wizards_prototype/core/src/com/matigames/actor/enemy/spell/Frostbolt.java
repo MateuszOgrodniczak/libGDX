@@ -2,6 +2,7 @@ package com.matigames.actor.enemy.spell;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.matigames.actor.spell.SpellSchool;
 
 public class Frostbolt extends EnemySpell {
     public Frostbolt(float x, float y, Stage s) {
@@ -18,6 +19,7 @@ public class Frostbolt extends EnemySpell {
         setSpeed(450);
         setMaxSpeed(450);
         setDeceleration(0);
+        school = SpellSchool.ICE;
 
         int angleChange = randomAngle.nextInt(20) - 10;
         setRotation(-90 + angleChange);

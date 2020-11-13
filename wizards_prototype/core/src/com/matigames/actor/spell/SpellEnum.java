@@ -3,7 +3,8 @@ package com.matigames.actor.spell;
 public enum SpellEnum {
     FIREBOLT("Firebolt"), FIREBALL("Fireball"), FIREBOULDER("Fireboulder"), ICE_SPIKE("Ice spike"),
     ICE_CROWN("Ice crown"), ENERGY_WAVE("Energy wave"), LIGHTNING("Lightning"), MAGIC_BARRIER("Magic barrier"),
-    FROST_NOVA("Frost nova"), BLINK("Blink"), TORNADO("Tornado");
+    FROST_NOVA("Frost nova"), BLINK("Blink"), TORNADO("Tornado"), METEOR_RAIN("Meteor rain"), BLIZZARD("Blizzard"),
+    MIRROR_IMAGES("Mirror images");
 
     private String spellName;
 

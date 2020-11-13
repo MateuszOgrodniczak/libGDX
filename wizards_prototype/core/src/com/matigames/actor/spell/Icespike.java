@@ -13,15 +13,13 @@ public class Icespike extends Spell {
 
         loadAnimationFromSheet("assets/test-spells/IcePick_64x64.png", 1, 30, 0.1f, true);
 
-        baseDmg = 1500;
+        minDmg = 1500;
+        maxDmg = 2000;
         manaCost = MANA_COST = 50;
         school = SpellSchool.ICE;
         harmful = true;
 
         scaleBy(1.5f);
-        addAction(Actions.delay(3));
-        addAction(Actions.after(Actions.fadeOut(0.5f)));
-        addAction(Actions.after(Actions.removeActor()));
 
         setSpeed(425);
         setMaxSpeed(425);

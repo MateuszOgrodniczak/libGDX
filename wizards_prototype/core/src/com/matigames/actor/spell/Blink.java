@@ -14,8 +14,10 @@ public class Blink extends Spell {
         loadAnimationFromSheet("assets/test-spells/warp.png", 4, 8, 0.05f, true);
 
         manaCost = MANA_COST = 50;
-        scaleBy(2);
+        scaleBy(1.5f);
         harmful = false;
+        school = SpellSchool.ARCANE;
+
         addAction(Actions.delay(1));
         addAction(Actions.after(Actions.fadeOut(0.5f)));
         addAction(Actions.after(Actions.removeActor()));

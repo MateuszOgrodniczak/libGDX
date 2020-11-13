@@ -14,14 +14,11 @@ public class Tornado extends Spell {
         setBoundaryPolygon(3, 1, 1);
 
         school = SpellSchool.STORM;
-        baseDmg = 1000;
+        minDmg = 1000;
         manaCost = 10;
         harmful = true;
 
         scaleBy(1.75f);
-        addAction(Actions.delay(10));
-        addAction(Actions.after(Actions.fadeOut(0.5f)));
-        addAction(Actions.after(Actions.removeActor()));
 
         setSpeed(100);
         setMaxSpeed(100);
@@ -56,7 +53,7 @@ public class Tornado extends Spell {
         return true;//directions.matches(directionsRegExp);
     }
 
-    public float getBaseDmg() {
-        return this.baseDmg;
+    public float getMinDmg() {
+        return this.minDmg;
     }
 }

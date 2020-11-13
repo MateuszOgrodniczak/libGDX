@@ -101,16 +101,16 @@ public class CharacterScreen extends BaseScreen {
         treesSelectionTable.add(pointsLeftLabel).width(100).padTop(25);
         uiStage.addActor(treesSelectionTable);
 
-        /*TextButton exitButton = new TextButton("Back to game menu", skin);
-        exitButton.setPosition(5, GAME_HEIGHT * 0.9f);
-        exitButton.addListener(new ClickListener() {
+        /*TextButton backButton = new TextButton("Back to game menu", skin);
+        backButton.setPosition(5, GAME_HEIGHT * 0.9f);
+        backButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 game.setScreen(new MenuScreen(game));
             }
         });
-        uiStage.addActor(exitButton);*/
-        //mainStage.addActor(exitButton);
+        uiStage.addActor(backButton);*/
+        //mainStage.addActor(backButton);
     }
 
     @Override

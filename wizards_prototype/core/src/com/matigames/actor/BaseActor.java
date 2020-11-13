@@ -32,6 +32,7 @@ public class BaseActor extends Group {
     private float acceleration;
 
     private float maxSpeed;
+    protected float baseSpeed;
     private float deceleration;
 
     private Polygon boundaryPolygon;
@@ -40,6 +41,12 @@ public class BaseActor extends Group {
     protected Direction direction;
 
     private Label nameLabel;
+
+    protected boolean drawable = true;
+
+    public boolean isDrawable() {
+        return drawable;
+    }
 
     public BaseActor(float x, float y, Stage s) {
         super();
@@ -74,13 +81,13 @@ public class BaseActor extends Group {
 
         if (x < 0) {
             setX(0);
-        } else if (x + width > GAME_WIDTH) {
-            setX(GAME_WIDTH - getWidth());
+        } else if (x + width > Gdx.graphics.getWidth()) {
+            setX(Gdx.graphics.getWidth() - getWidth());
         }
         if (y < 0) {
             setY(0);
-        } else if (y + height > GAME_HEIGHT) {
-            setY(GAME_HEIGHT - getHeight());
+        } else if (y + height > Gdx.graphics.getHeight()) {
+            setY(Gdx.graphics.getHeight() - getHeight());
         }
     }
 
@@ -189,6 +196,9 @@ public class BaseActor extends Group {
     }
 
     public void setAnimation(Animation<TextureRegion> animation) {
+        if(animation == null) {
+            return;
+        }
         elapsedTime = 0;
         this.animation = animation;
         TextureRegion tr = animation.getKeyFrame(0);
@@ -207,7 +217,7 @@ public class BaseActor extends Group {
         float width = getWidth();
         float height = getHeight();
 
-        float[] vertices = {0f + width * 0.3f, 0f + height * 0.3f, width * 0.6f, 0f + height * 0.3f, width * 0.6f, height * 0.6f, 0f + width * 0.3f, height * 0.6f};
+        float[] vertices = {0f, 0f, width, 0f, width, height, 0f, height};
         boundaryPolygon = new Polygon(vertices);
     }
 
@@ -242,6 +252,10 @@ public class BaseActor extends Group {
         }
 
         return Intersector.overlapConvexPolygons(boundaryPolygon, otherBoundaryPolygon);
+    }
+
+    public boolean overlapsRectangle(BaseActor other) {
+        return boundaryPolygon.getBoundingRectangle().overlaps(other.getBoundaryPolygon().getBoundingRectangle());
     }
 
     public void setAnimationPaused(boolean paused) {

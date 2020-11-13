@@ -15,15 +15,13 @@ public class Fireball extends Spell {
         setBoundaryPolygon(3, 1, 1);
 
         school = SpellSchool.FIRE;
-        baseDmg = 1000 * level;
+        minDmg = 1000 * level;
+        maxDmg = minDmg + 750;
         MANA_COST = 25;
         manaCost = 25 * level;
         harmful = true;
 
         scaleBy(level * 1.5f);
-        addAction(Actions.delay(3));
-        addAction(Actions.after(Actions.fadeOut(0.5f)));
-        addAction(Actions.after(Actions.removeActor()));
 
         setSpeed(400);
         setMaxSpeed(400);
@@ -58,7 +56,7 @@ public class Fireball extends Spell {
         return directions.matches(directionsRegExp);
     }
 
-    public float getBaseDmg() {
-        return this.baseDmg;
+    public float getMinDmg() {
+        return this.minDmg;
     }
 }

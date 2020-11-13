@@ -15,7 +15,6 @@ public class Orc extends BaseEnemy {
     static Animation<TextureRegion> idleAnimation;
     static Animation<TextureRegion> attackAnimation;
 
-
     public Orc(float x, float y, Stage s, Player target) {
         super(x, y, s);
         this.target = target;
@@ -35,52 +34,68 @@ public class Orc extends BaseEnemy {
                 "assets/monsters/orcs/1_ORK/ATTAK/ATTAK_004.png", "assets/monsters/orcs/1_ORK/ATTAK/ATTAK_005.png",
                 "assets/monsters/orcs/1_ORK/ATTAK/ATTAK_006.png"};
 
+        String[] death = new String[]{"assets/monsters/orcs/1_ORK/DIE/DIE_000.png", "assets/monsters/orcs/1_ORK/DIE/DIE_001.png",
+                "assets/monsters/orcs/1_ORK/DIE/DIE_002.png", "assets/monsters/orcs/1_ORK/DIE/DIE_003.png",
+                "assets/monsters/orcs/1_ORK/DIE/DIE_004.png", "assets/monsters/orcs/1_ORK/DIE/DIE_005.png",
+                "assets/monsters/orcs/1_ORK/DIE/DIE_006.png"};
+
         if (movingAnimation == null) {
             movingAnimation = loadAnimationFromFiles(run, 0.1f, true);
             attackAnimation = loadAnimationFromFiles(attack, 0.1f, true);
+            deathAnimation = loadAnimationFromFiles(death, 0.1f, false);
         }
 
+        setAnimation(movingAnimation);
         setSize(75, 100);
         setBoundaryPolygon(8, 1, 1);
 
-        baseHP = 1000;
+        baseHP = 5000;
         hp = baseHP;
 
-        //setSpeed(150);
-        //setMaxSpeed(150);
-        // setDeceleration(0);
+        baseSpeed = 125;
+        setSpeed(125);
+        setMaxSpeed(125);
+        setDeceleration(0);
+    }
+
+    @Override
+    public void setAnimation(Animation<TextureRegion> animation) {
+        super.setAnimation(animation);
+        setSize(75, 100);
     }
 
     @Override
     public void act(float delta) {
         super.act(delta);
 
-        //applyPhysics(delta);
+        applyPhysics(delta);
         boundToWorld();
 
         Animation<TextureRegion> currentAnimation = getAnimation();
 
-        if (inRange()) {
+        if (currentAnimation == deathAnimation) {
+            if (isAnimationFinished()) {
+                this.remove();
+            }
+        } else if (inRange()) {
             //attack
             if (currentAnimation != attackAnimation) {
                 setAnimation(attackAnimation);
-                setSize(75, 100);
             }
-            // System.out.println("ATTACK");
         } else {
             if (currentAnimation != movingAnimation) {
                 setAnimation(movingAnimation);
-                setSize(75, 100);
             }
-            // System.out.println("Target X: " + target.getX() + ", Y: " + target.getY());
-            //   System.out.println("X: " + getX() + ", Y: " + getY());
+
             float xChange = clap(target.getX(), getX());
             if (xChange >= 0) {
                 direction = Direction.RIGHT;
             } else {
                 direction = Direction.LEFT;
             }
-            moveBy(xChange, clap(target.getY(), getY()));
+            double angle = Math.atan2(target.getY() - getY(), target.getX() - getX());
+            angle = Math.toDegrees(angle);
+            setMotionAngle((float) angle);
         }
     }
 
@@ -97,5 +112,15 @@ public class Orc extends BaseEnemy {
 
     private boolean inRange() {
         return Math.abs(target.getX() - getX()) <= 20 && Math.abs(target.getY() - getY()) <= 20;
+    }
+
+    public Animation getDeathAnimation() {
+        return deathAnimation;
+    }
+    public Animation getMovingAnimation() {
+        return movingAnimation;
+    }
+    public Animation getAttackAnimation() {
+        return attackAnimation;
     }
 }

@@ -6,10 +6,16 @@ import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.matigames.actor.spell.MagicBarrier;
+import com.matigames.actor.spell.Mirror;
 import com.matigames.actor.spell.Spell;
+import com.matigames.actor.spell.SpellDeflection;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Player extends BaseActor {
     private Spell shield;
+    private SpellDeflection deflection;
 
     private final float baseHP = 300;
     private final float baseMana = 1000;
@@ -20,6 +26,9 @@ public class Player extends BaseActor {
     Animation<TextureRegion> movingAnimation;
     Animation<TextureRegion> deathAnimation;
     Animation<TextureRegion> idleAnimation;
+
+    private boolean moved;
+    private List<Mirror> mirrors;
 
     public float hpLeft() {
         return (hp / baseHP);
@@ -37,15 +46,18 @@ public class Player extends BaseActor {
         this.mana += mana;
     }
 
+    public Direction getDirection() {
+        return direction;
+    }
+
     public Player(float x, float y, Stage s) {
         super(x, y, s);
 
         idleAnimation = loadAnimationFromSheet("assets/player/Idle.png", 1, 8, 0.05f, true);
         movingAnimation = loadAnimationFromSheet("assets/player/Move.png", 1, 8, 0.1f, true);
-        deathAnimation = loadAnimationFromSheet("assets/player/Death.png", 1, 5, 0.01f, false);
+        deathAnimation = loadAnimationFromSheet("assets/player/Death.png", 1, 5, 0.1f, false);
 
         setBoundaryPolygon(8, 5, 3);
-        //setBoundaryRectangle();
         scaleBy(2);
 
         setOriginX(getWidth() / 2);
@@ -57,6 +69,7 @@ public class Player extends BaseActor {
 
         hp = baseHP;
         mana = baseMana;
+        mirrors = new ArrayList<>();
     }
 
     @Override
@@ -65,22 +78,27 @@ public class Player extends BaseActor {
 
         Animation currentAnimation = getAnimation();
         if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-            if (currentAnimation != movingAnimation) {
-                setAnimation(movingAnimation);
-            }
-            direction = Direction.LEFT;
-            moveBy(-5, 0);
-        } else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-            if (currentAnimation != movingAnimation) {
-                setAnimation(movingAnimation);
-            }
-            direction = Direction.RIGHT;
-            moveBy(5, 0);
-        } else if (Gdx.input.isKeyPressed(Input.Keys.X)) {
+            move(currentAnimation, Direction.LEFT, -5, 0);
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+            move(currentAnimation, Direction.RIGHT, 5, 0);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.UP)) {
+            move(currentAnimation, direction, 0, 5);
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
+            move(currentAnimation, direction, 0, -5);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.X)) {
             setAnimation(deathAnimation);
-        } else if (currentAnimation != idleAnimation) {
+        }
+
+        if (currentAnimation != deathAnimation && currentAnimation != idleAnimation && !moved) {
             setAnimation(idleAnimation);
         }
+        moved = false;
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
             if (shield != null) {
@@ -94,6 +112,18 @@ public class Player extends BaseActor {
 
         applyPhysics(delta);
         boundToWorld();
+    }
+
+    public void move(Animation currentAnimation, Direction newDirection, float x, float y) {
+        if (currentAnimation == null) {
+            currentAnimation = getAnimation();
+        }
+        if (currentAnimation != movingAnimation) {
+            setAnimation(movingAnimation);
+        }
+        direction = newDirection;
+        moveBy(x, y);
+        this.moved = true;
     }
 
     public Spell getShield() {
@@ -118,5 +148,41 @@ public class Player extends BaseActor {
 
     public void setMana(float mana) {
         this.mana = mana;
+    }
+
+    public void setMovingAnimation(Animation<TextureRegion> movingAnimation) {
+        this.movingAnimation = movingAnimation;
+    }
+
+    public void setDeathAnimation(Animation<TextureRegion> deathAnimation) {
+        this.deathAnimation = deathAnimation;
+    }
+
+    public void setIdleAnimation(Animation<TextureRegion> idleAnimation) {
+        this.idleAnimation = idleAnimation;
+    }
+
+    public Animation<TextureRegion> getMovingAnimation() {
+        return movingAnimation;
+    }
+
+    public Animation<TextureRegion> getDeathAnimation() {
+        return deathAnimation;
+    }
+
+    public Animation<TextureRegion> getIdleAnimation() {
+        return idleAnimation;
+    }
+
+    public List<Mirror> getMirrors() {
+        return mirrors;
+    }
+
+    public SpellDeflection getDeflection() {
+        return deflection;
+    }
+
+    public void setDeflection(SpellDeflection deflection) {
+        this.deflection = deflection;
     }
 }

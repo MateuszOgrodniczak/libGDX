@@ -2,6 +2,7 @@ package com.matigames.actor.enemy.spell;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.matigames.actor.spell.SpellSchool;
 
 public class MassiveFireMissile extends EnemySpell {
     public MassiveFireMissile(float x, float y, Stage s) {
@@ -18,6 +19,7 @@ public class MassiveFireMissile extends EnemySpell {
         setSpeed(125);
         setMaxSpeed(125);
         setDeceleration(0);
+        school = SpellSchool.FIRE;
 
         int angleChange = randomAngle.nextInt(5) - 5;
         setRotation(-90 + angleChange);

@@ -8,7 +8,6 @@ public class Dummy extends BaseEnemy {
         super(x, y, s);
 
         loadTexture("assets/dummy.png");
-        setBoundaryPolygon(8, 4, 4);
 
         setName("Training dummy");
         baseHP = 100;
@@ -17,6 +16,7 @@ public class Dummy extends BaseEnemy {
 
         setWidth(200);
         setHeight(200);
+        setBoundaryPolygon(4, 1, 1);
     }
 
     @Override

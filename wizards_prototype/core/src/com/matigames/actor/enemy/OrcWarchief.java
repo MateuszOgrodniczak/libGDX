@@ -30,8 +30,14 @@ public class OrcWarchief extends BaseEnemy {
                 "assets/monsters/orcs/2_ORK/ATTAK/ATTAK_004.png", "assets/monsters/orcs/2_ORK/ATTAK/ATTAK_005.png",
                 "assets/monsters/orcs/2_ORK/ATTAK/ATTAK_006.png"};
 
+        String[] death = new String[]{"assets/monsters/orcs/2_ORK/DIE/DIE_000.png", "assets/monsters/orcs/2_ORK/DIE/DIE_001.png",
+                "assets/monsters/orcs/2_ORK/DIE/DIE_002.png", "assets/monsters/orcs/2_ORK/DIE/DIE_003.png",
+                "assets/monsters/orcs/2_ORK/DIE/DIE_004.png", "assets/monsters/orcs/2_ORK/DIE/DIE_005.png",
+                "assets/monsters/orcs/2_ORK/DIE/DIE_006.png"};
+        
         movingAnimation = loadAnimationFromFiles(run, 0.1f, true);
         attackAnimation = loadAnimationFromFiles(attack, 0.1f, true);
+        deathAnimation = loadAnimationFromFiles(death, 0.1f, false);
 
         setSize(125, 200);
         setBoundaryPolygon(8, 1, 1);
@@ -39,9 +45,10 @@ public class OrcWarchief extends BaseEnemy {
         baseHP = 10000;
         hp = baseHP;
 
-        //setSpeed(150);
-        //setMaxSpeed(150);
-        // setDeceleration(0);
+        baseSpeed = 175;
+        setSpeed(175);
+        setMaxSpeed(175);
+        setDeceleration(0);
     }
 
     @Override
@@ -52,29 +59,36 @@ public class OrcWarchief extends BaseEnemy {
         boundToWorld();
 
         Animation<TextureRegion> currentAnimation = getAnimation();
-
-        if (inRange()) {
+        if (currentAnimation == deathAnimation) {
+            if (isAnimationFinished()) {
+                this.remove();
+            }
+        } else if (inRange()) {
             //attack
             if (currentAnimation != attackAnimation) {
                 setAnimation(attackAnimation);
-                setSize(125, 200);
             }
-            // System.out.println("ATTACK");
         } else {
             if (currentAnimation != movingAnimation) {
                 setAnimation(movingAnimation);
-                setSize(125, 200);
             }
-            // System.out.println("Target X: " + target.getX() + ", Y: " + target.getY());
-            //   System.out.println("X: " + getX() + ", Y: " + getY());
+
             float xChange = clap(target.getX(), getX());
             if (xChange >= 0) {
                 direction = Direction.RIGHT;
             } else {
                 direction = Direction.LEFT;
             }
-            moveBy(xChange, clap(target.getY(), getY()));
+            double angle = Math.atan2(target.getY()-getY(), target.getX()-getX());
+            angle = Math.toDegrees(angle);
+            setMotionAngle((float) angle);
         }
+    }
+
+    @Override
+    public void setAnimation(Animation<TextureRegion> animation) {
+        super.setAnimation(animation);
+        setSize(125, 200);
     }
 
     private float clap(float pos1, float pos2) {

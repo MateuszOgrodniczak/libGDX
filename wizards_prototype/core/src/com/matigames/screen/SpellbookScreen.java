@@ -6,6 +6,7 @@ import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.matigames.actor.BaseActor;
 import com.matigames.actor.rune.BaseRune;
 import com.matigames.actor.spell.SpellEnum;
@@ -90,16 +91,22 @@ public class SpellbookScreen extends BaseScreen {
         pagesToRunes = new HashMap<>();
         int i = 0;
         for (SpellEnum spellEnum : spellEnums) {
+            String spell = spellEnum.name();
+            spell = spell.replace("_", "").replace(" ", "").toLowerCase();
+            String spellPath = "assets/runes/" + spell + "1.png";
+            BaseRune rune;
+            try {
+                rune = new BaseRune(0, 0, uiStage, new String[]{spellPath}, spell, skin);
+            } catch (GdxRuntimeException e) {
+                continue;
+            }
             if (i >= positions.length) {
                 lastPage++;
                 i = 0;
             }
-            String spell = spellEnum.name();
-            spell = spell.replace("_", "").replace(" ", "").toLowerCase();
+
             float currentX = positions[i][0];
             float currentY = positions[i][1];
-            String spellPath = "assets/runes/" + spell + "1.png";
-            BaseRune rune = new BaseRune(0, 0, uiStage, new String[]{spellPath}, spell, skin);
 
             rune.setSize(250, 250);
             rune.centerAtPosition(currentX, currentY);

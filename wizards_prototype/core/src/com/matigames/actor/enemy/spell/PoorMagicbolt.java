@@ -2,6 +2,7 @@ package com.matigames.actor.enemy.spell;
 
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.matigames.actor.spell.SpellSchool;
 
 public class PoorMagicbolt extends EnemySpell {
     public PoorMagicbolt(float x, float y, Stage s) {
@@ -18,6 +19,7 @@ public class PoorMagicbolt extends EnemySpell {
         setSpeed(300);
         setMaxSpeed(300);
         setDeceleration(0);
+        school = SpellSchool.ARCANE;
 
         setColor(0.4f, 0.1f, 0.8f, 1);
 

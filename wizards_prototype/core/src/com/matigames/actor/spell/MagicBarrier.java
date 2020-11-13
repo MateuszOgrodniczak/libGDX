@@ -17,11 +17,10 @@ public class MagicBarrier extends Spell {
         school = SpellSchool.ARCANE;
 
         loadTexture("assets/test-spells/shields.png");
+        scaleBy(-0.45f);
 
-        float width = player.getWidth() / getWidth() + 0.15f;
-        float height = player.getHeight() / getHeight() + 0.35f;
         Action pulse = Actions.sequence(
-                Actions.scaleTo(width, height, 1), Actions.scaleTo(width - 0.2f, height - 0.2f, 1));
+                Actions.scaleTo(0.75f, 0.75f, 1), Actions.scaleTo(0.55f, 0.55f, 1));
 
         addAction(Actions.forever(pulse));
     }
